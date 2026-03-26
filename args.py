@@ -54,5 +54,4 @@ def shopping_cart_details(**kwargs):
     for key,value in kwargs.items():
         print(f"{key}:{value}")
 shopping_cart_details(total=250, name_billing="Vipin Verma") 
-       
         
